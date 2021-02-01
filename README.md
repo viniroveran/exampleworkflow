@@ -35,7 +35,7 @@ git push origin new-user-story
 ```
 **Push** uploads all local changes to the repository.
 
-# Steps 2 and 3 are repeated for every task in your user story
+### Steps 2 and 3 are repeated for every task in your user story
 
 # Step 4: Opening Merge Request
 - Go to GitHub Repository page and click on Pull requests
