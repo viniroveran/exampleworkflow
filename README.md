@@ -6,9 +6,9 @@ git clone git@github.com:viniroveran/exampleworkflow.git
 cd exampleworkflow
 ```
 From here on, this is how every user story is started.  
-If you were not on master branch, first finish your work, open a merge request and execute the following commands after your merge request is approved:  
+If you were not on main branch, first finish your work, open a merge request and execute the following commands after your merge request is approved:  
 ```
-git checkout master
+git checkout main
 git pull
 ```
 **Pull** downloads all the latest commits from the repository.
@@ -35,6 +35,8 @@ git push origin new-user-story
 ```
 **Push** uploads all local changes to the repository.
 
+# Steps 2 and 3 are repeated for every task in your user story
+
 # Step 4: Opening Merge Request
 - Go to GitHub Repository page and click on Pull requests
 - Open Pull request
@@ -43,7 +45,7 @@ git push origin new-user-story
 - After Merge Request is approved, go back to master and update your repository.
 - Open Git Bash again and execute:
 ```
-git checkout master
+git checkout main
 git pull
 ```
 
