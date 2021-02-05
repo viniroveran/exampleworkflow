@@ -2,7 +2,7 @@
 - Open Git Bash on repositories folder
 
 ```
-git clone git@github.com:viniroveran/exampleworkflow.git
+git clone https://github.com/viniroveran/exampleworkflow.git
 cd exampleworkflow
 ```
 From here on, this is how every user story is started.  
