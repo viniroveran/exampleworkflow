@@ -59,3 +59,5 @@ git pull
     `git restore --staged Path/To/File`
 - Restoring all changes on a file since last commit:
     `git restore Path/To/File`
+- Changing branch (without creating a new one):
+    `git checkout branch-name`
