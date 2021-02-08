@@ -61,3 +61,5 @@ git pull
     `git restore Path/To/File`
 - Changing branch (without creating a new one):
     `git checkout branch-name`
+- Reverting last commit
+    `git revert HEAD`
